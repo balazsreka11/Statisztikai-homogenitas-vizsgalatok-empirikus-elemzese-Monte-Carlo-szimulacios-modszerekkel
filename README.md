@@ -37,7 +37,7 @@ eloszlás_tulajdonsagok.xlsx: elméleti eloszlások tulajdonságai
 - Az R környezetbe be kell tölteni a fenti fájlokat, és utána lehet futtatni a kódot az ábrázolásokhoz és az elemzések elvégzéséhez
 
 
-## Amennyiben valamelyik használt csomag nincs letöltve a felhasználó gépén:
+Amennyiben valamelyik használt csomag nincs letöltve a felhasználó gépén:
 - Python esetén pip install
 - R esetén install.packages("")
 
