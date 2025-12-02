@@ -19,9 +19,6 @@ A kutatás Monte Carlo szimuláció segítségével vizsgálja különböző hom
 - Boxplotok az elemzési adatok és a p-értékek között
 - Lineáris regressziós modellek
 
-
-eredmenyek_nyers.csv: nyers p-értékek 100 véletlen maggal, minden próbára, eloszláspárra és elemszámra
-
 eredmenyek_osszefoglalo.csv: aggregált p-értékek és döntési arányok
 
 elemzes.xlsx: eloszláspárok elméleti tulajdonságai és az 50-es elemszám melletti p-értékek
@@ -30,11 +27,12 @@ eloszlás_tulajdonsagok.xlsx: elméleti eloszlások tulajdonságai
 
 
 ## A projekt futtatása
-- A teljes szimulációs fájl (szimulacio.py) futtatása után létrejönnek az alábbiak
-	- eredmenyek_nyers.csv
+- A Python kód futtatásához be kell tölteni a környezetbe az eloszlas_tulajdonsagok.xlsx fájlt.
+-  A teljes szimulációs fájl (szimulacio.py) futtatása után létrejönnek az alábbiak
+	- eredmenyek_nyers.csv (a továbbiakban nem használom, ellenőrzési célokra szolgál)
 	- eredmenyek_osszefoglalo.csv
 	- elemzes.xlsx
-- Az R környezetbe be kell tölteni a fenti fájlokat, és utána lehet futtatni a kódot az ábrázolásokhoz és az elemzések elvégzéséhez
+- Az R környezetbe be kell tölteni  az eredmenyek_osszefoglalo.csv és az elemzes.xlsx fájlokat, és utána lehet futtatni a kódot az ábrázolásokhoz és az elemzések elvégzéséhez
 
 
 Amennyiben valamelyik használt csomag nincs letöltve a felhasználó gépén:
