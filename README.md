@@ -46,4 +46,4 @@ Amennyiben valamelyik használt csomag nincs letöltve a felhasználó gépén:
 A Python szkript futásideje hosszú (akár 5-7 óra),
 ezért a program Windows esetén ideiglenesen kikapcsolja az automatikus alvó módot.
 Amennyiben a felhasználó nem szeretné a futási időt megvárni, csak az R kódot is lehet futtatni a megfelelő fájlok importálásával.
-Az R kódot ISO-8859-2 kódolással érdemes megnyitni.
+Az R kódot UTF-8 kódolással érdemes megnyitni.
