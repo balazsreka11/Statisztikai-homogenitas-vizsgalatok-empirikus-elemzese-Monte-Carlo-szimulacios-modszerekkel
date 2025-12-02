@@ -27,7 +27,7 @@ eloszlás_tulajdonsagok.xlsx: elméleti eloszlások tulajdonságai
 
 
 ## A projekt futtatása
-- A Python kód futtatásához be kell tölteni a környezetbe az eloszlas_tulajdonsagok.xlsx fájlt.
+- A Python kód futtatásához be kell tölteni a környezetbe az eloszlas_tulajdonsagok.xlsx fájlt
 -  A teljes szimulációs fájl (szimulacio.py) futtatása után létrejönnek az alábbiak
 	- eredmenyek_nyers.csv (a továbbiakban nem használom, ellenőrzési célokra szolgál)
 	- eredmenyek_osszefoglalo.csv
