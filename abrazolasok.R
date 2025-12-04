@@ -184,10 +184,9 @@ p_weib2 <- ggplot() +
 empty <- ggplot() + theme_void()
 
 final_plot3 <- 
-  (p_exp | p_gam2)   /
-  (p_gam05 | p_lnorm01) /
-  (p_lnorm02 | p_weib05) /
-  (p_weib2 | empty) +
+  (p_exp | p_gam2 | p_gam05) /
+  (p_lnorm01 | p_lnorm02 | p_weib05) /
+  (p_weib2 | empty | empty)+
   theme(plot.title = element_text(hjust = 0.5, family = "Times"))
 
 final_plot3
@@ -887,5 +886,6 @@ p_sym_01_5 <- ggplot(between_sym_01_5,
   guides(color = guide_legend(nrow = 1))
 
 print(p_sym_01_5)
+
 
   
