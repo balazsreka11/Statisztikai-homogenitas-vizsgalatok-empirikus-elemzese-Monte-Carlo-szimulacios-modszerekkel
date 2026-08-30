@@ -293,7 +293,7 @@ p_value <- function(expr1, expr2, n) {
   
   ## Kruskal-Wallis
 
-  kw <- kruskal.test(sample1, sample2)
+  kw <- stats::kruskal.test(list(sample1, sample2))
   
   ## Cramer-von Mises
   
@@ -483,7 +483,7 @@ for (n in sample_sizes) {
   fwrite(
     df_batch,
     file = output_file,
-    append = !first_write,
+    append = !first_write, 
     col.names = first_write
   )
   
